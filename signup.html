@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>RPI XPlore Sign Up</title>
+        <link rel="stylesheet" href="login.css">
+        <link rel="icon" href="/finalproject_full/images/Asset_24x.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <a href="main.php"><img src="./images/logo.png"></a>
+        </header>
+        <main>
+        <div class="login-container">
+            <h1>RPI XPlore Sign Up</h1>
+            <form class="loginform" action="signUp.php" method="post">
+                
+                <label for="email">Email </label>
+                <input type="email" id="email" name="email" placeholder="Enter Email" required>
+
+                <label for="username">Username </label>
+                <input type="text" id="username" name="username" placeholder="Enter Username" required>
+
+                <label for="password">Password </label>
+                <input type="password" id="password" name="password" placeholder="Enter Password" minlength="8" required>
+
+                <label for="role_id">Role ID </label>
+                <input type="number" id="role_id" name="role_id" placeholder="Enter 1 for student 2 for parent" minlength="1" required>
+
+                <button class="signup" type="submit">Sign Up</button>
+
+                <p class="signup">Already have an account? <a href="login.html">Log in here</a></p>
+
+            </form>
+        </div>
+    </main>
+    </body>
+</html>

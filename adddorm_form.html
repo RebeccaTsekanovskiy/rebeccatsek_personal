@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Dormitory Information</title>
+</head>
+<body>
+
+<form action="submit_dorm_info.php" method="post">
+    <h2>Dormitory Information</h2>
+    
+    <label for="name">Dorm Name:</label>
+    <input type="text" id="name" name="dorm[name]" required><br><br>
+    
+    <label for="building">Building Name:</label>
+    <input type="text" id="building" name="dorm[building]" required><br><br>
+    
+    <label for="thumbnail">Thumbnail URL:</label>
+    <input type="text" id="thumbnail" name="dorm[thumbnail]" required><br><br>
+    
+    <!-- Include other fields in the same pattern -->
+    <h3>Features</h3>
+    <div class="features-section">
+        <label for="alldorm">All Dorm:</label>
+        <input type="checkbox" id="alldorm" name="dorm[features][alldorm]"><br>
+    
+        <label for="isFreshman">Is Freshman Dorm:</label>
+        <input type="checkbox" id="isFreshman" name="dorm[features][isFreshman]"><br>
+    
+        <label for="isSophomore">Is Sophomore Dorm:</label>
+        <input type="checkbox" id="isSophomore" name="dorm[features][isSophomore]"><br>
+    
+        <label for="isJunior">Is Junior Dorm:</label>
+        <input type="checkbox" id="isJunior" name="dorm[features][isJunior]"><br>
+    
+        <label for="isSenior">Is Senior Dorm:</label>
+        <input type="checkbox" id="isSenior" name="dorm[features][isSenior]"><br>
+    
+        <label for="hasSingle">Has Single Rooms:</label>
+        <input type="checkbox" id="hasSingle" name="dorm[features][hasSingle]"><br>
+    
+        <label for="hasDouble">Has Double Rooms:</label>
+        <input type="checkbox" id="hasDouble" name="dorm[features][hasDouble]"><br>
+    
+        <label for="hasTriple">Has Triple Rooms:</label>
+        <input type="checkbox" id="hasTriple" name="dorm[features][hasTriple]"><br>
+    
+        <label for="hasTripleSuite">Has Triple Suites:</label>
+        <input type="checkbox" id="hasTripleSuite" name="dorm[features][hasTripleSuite]"><br>
+    
+        <label for="hasInRoomBathroom">Has In-Room Bathroom:</label>
+        <input type="checkbox" id="hasInRoomBathroom" name="dorm[features][hasInRoomBathroom]"><br>
+    
+        <label for="hasHallBathroom">Has Hall Bathroom:</label>
+        <input type="checkbox" id="hasHallBathroom" name="dorm[features][hasHallBathroom]"><br>
+    
+        <label for="hasCommonSpace">Has Common Space:</label>
+        <input type="checkbox" id="hasCommonSpace" name="dorm[features][hasCommonSpace]"><br>
+    
+        <label for="hasTV">Has TV:</label>
+        <input type="checkbox" id="hasTV" name="dorm[features][hasTV]"><br>
+    
+        <label for="hasCouch">Has Couch:</label>
+        <input type="checkbox" id="hasCouch" name="dorm[features][hasCouch]"><br>
+    
+        <label for="hasAC">Has AC:</label>
+        <input type="checkbox" id="hasAC" name="dorm[features][hasAC]"><br>
+    
+        <label for="hasStudyRooms">Has Study Rooms:</label>
+        <input type="checkbox" id="hasStudyRooms" name="dorm[features][hasStudyRooms]"><br>
+    
+        <label for="hasElevator">Has Elevator:</label>
+        <input type="checkbox" id="hasElevator" name="dorm[features][hasElevator]"><br>
+    
+        <label for="nearestDining">Nearest Dining:</label>
+        <input type="text" id="nearestDining" name="dorm[features][nearestDining]"><br>
+    
+        <label for="freshmanhill">Is on Freshman Hill:</label>
+        <input type="checkbox" id="freshmanhill" name="dorm[features][freshmanhill]"><br>
+    
+        <label for="hasPrinter">Has Printer:</label>
+        <input type="checkbox" id="hasPrinter" name="dorm[features][hasPrinter]"><br>
+    
+        <label for="floorType">Floor Type:</label>
+        <input type="text" id="floorType" name="dorm[features][floorType]"><br>
+    
+        <label for="bedType">Bed Type:</label>
+        <input type="text" id="bedType" name="dorm[features][bedType]"><br>
+    </div>
+    <h3>Kitchen Information</h3>
+<div class="kitchen-section">
+    <label for="hasMicrowave">Has Microwave:</label>
+    <input type="checkbox" id="hasMicrowave" name="dorm[kitchen][hasMicrowave]"><br>
+
+    <label for="hasStove">Has Stove:</label>
+    <input type="checkbox" id="hasStove" name="dorm[kitchen][hasStove]"><br>
+
+    <label for="hasFridge">Has Fridge:</label>
+    <input type="checkbox" id="hasFridge" name="dorm[kitchen][hasFridge]"><br>
+</div>
+<!-- Single Room Details -->
+<div id="singleRoom">
+    <h4>Single Room Details</h4>
+    <label for="singleSqft">Square Footage:</label>
+    <input type="number" id="singleSqft" name="dorm[roomTypes][single][sqft]"><br>
+    
+    <label for="singleToilets">Number of Toilets:</label>
+    <input type="number" id="singleToilets" name="dorm[roomTypes][single][bathroom][toilets]"><br>
+    
+    <label for="singleShowers">Number of Showers:</label>
+    <input type="number" id="singleShowers" name="dorm[roomTypes][single][bathroom][showers]"><br>
+    
+    <label for="singleSinks">Number of Sinks:</label>
+    <input type="number" id="singleSinks" name="dorm[roomTypes][single][bathroom][sinks]"><br>
+</div>
+
+<!-- Double Room Details -->
+<div id="doubleRoom">
+    <h4>Double Room Details</h4>
+    <label for="doubleSqft">Square Footage:</label>
+    <input type="number" id="doubleSqft" name="dorm[roomTypes][double][sqft]"><br>
+    
+    <label for="doubleToilets">Number of Toilets:</label>
+    <input type="number" id="doubleToilets" name="dorm[roomTypes][double][bathroom][toilets]"><br>
+    
+    <label for="doubleShowers">Number of Showers:</label>
+    <input type="number" id="doubleShowers" name="dorm[roomTypes][double][bathroom][showers]"><br>
+    
+    <label for="doubleSinks">Number of Sinks:</label>
+    <input type="number" id="doubleSinks" name="dorm[roomTypes][double][bathroom][sinks]"><br>
+</div>
+
+<!-- Triple Room Details -->
+<div id="tripleRoom">
+    <h4>Triple Room Details</h4>
+    <label for="tripleSqft">Square Footage:</label>
+    <input type="number" id="tripleSqft" name="dorm[roomTypes][triple][sqft]"><br>
+    
+    <label for="tripleToilets">Number of Toilets:</label>
+    <input type="number" id="tripleToilets" name="dorm[roomTypes][triple][bathroom][toilets]"><br>
+    
+    <label for="tripleShowers">Number of Showers:</label>
+    <input type="number" id="tripleShowers" name="dorm[roomTypes][triple][bathroom][showers]"><br>
+    
+    <label for="tripleSinks">Number of Sinks:</label>
+    <input type="number" id="tripleSinks" name="dorm[roomTypes][triple][bathroom][sinks]"><br>
+</div>
+
+<h3>Furnishings</h3>
+<div class="furnishings-section">
+    <label for="dresser">Dresser:</label>
+    <input type="checkbox" id="dresser" name="dorm[furnishings][dresser]"><br>
+
+    <label for="desk">Desk:</label>
+    <input type="checkbox" id="desk" name="dorm[furnishings][desk]"><br>
+
+    <label for="wardrobe">Wardrobe:</label>
+    <input type="checkbox" id="wardrobe" name="dorm[furnishings][wardrobe]"><br>
+
+    <label for="closet">Closet:</label>
+    <input type="checkbox" id="closet" name="dorm[furnishings][closet]"><br>
+</div>
+
+    
+    
+    <!-- Repeat for all other features -->
+    
+    <!-- Repeat this section for Furnishings, Kitchen, Location, Gender, RoomTypes -->
+    
+    <input type="submit" value="Submit Dormitory Info">
+</form>
+
+</body>
+</html>

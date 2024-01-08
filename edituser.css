@@ -1,0 +1,185 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    /* overflow-y: scroll; */
+}
+
+body {
+    margin:0;
+    height:0;
+    padding-bottom: 10%;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+h2 {
+    color: #00003a;
+    margin: 0px;
+}
+
+.welcome {
+    margin: 20px;
+
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding: 10px 0 10px 20px;
+    background-color: #00003a;
+    align-content: center;
+}
+
+.header_nav {
+    display: flex;          
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+    margin-right: 10%;
+    
+}
+.header_nav img {
+    width: 10%;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.header_nav a {
+    background-color:white; 
+    color: #DE3C4B; 
+    padding: 10px 15px; 
+    margin-left: 10px; 
+    margin-right: 10px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 20px; 
+    transition: background-color 0.3s; 
+    text-decoration: none;
+    font-size: 10pt;
+    width: 80px;
+    text-align: center;
+}
+
+.header_nav a:hover {
+    background-color: orange; 
+    color: white; 
+    padding: 10px 15px; 
+    margin-left: 10px; 
+    margin-right: 10px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 20px; 
+    transition: background-color 0.3s; 
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn{
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #DE3C4B;
+    padding: 14px 16px;
+    background-color:white; 
+    border-radius: 20px; 
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.edit-user-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 40%;
+    margin: auto;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.edit-user-form {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 23pt;
+    color: #C42847;
+}
+
+label {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #da4f99bb;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+.forgotpassword {
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+button {
+    margin: 50px auto;
+    width: 40%;
+    background-color: #fff;
+    border-color: #da4f99bb;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-image: linear-gradient(#da4f99bb, #944d73bb);
+    border-color: #fff;
+}

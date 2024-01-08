@@ -1,0 +1,107 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 28183,
+      "max": [
+        1.5270068645477295,
+        1.3045930862426758,
+        2.4036242961883545
+      ],
+      "min": [
+        -1.5270068645477295,
+        -1.3045930862426758,
+        -2.4036240577697754
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 140466,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 28183,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Polycam",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 338196,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 561864,
+      "byteOffset": 338196
+    },
+    {
+      "buffer": 0,
+      "byteLength": 225464,
+      "byteOffset": 900060
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "polytech_1_main_data.bin",
+      "byteLength": 1125524
+    }
+  ],
+  "images": [
+    {
+      "uri": "polytech_1_main_img0.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 1,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ]
+}

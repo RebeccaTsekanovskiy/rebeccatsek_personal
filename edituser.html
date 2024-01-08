@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>RPI XPlore</title>
+        <link rel="stylesheet" href="edituser.css">
+    </head>
+    <body>
+        <header>
+            <img src="./images/logo.png">
+            <nav class="header_nav">
+                <a href="main.html">Home</a>
+                <a href="dorms.html">Dorms</a>
+                <a href="resources.html">Resources</a>
+                <a href="forum.html">Forum</a>   
+            </nav>
+        </header>
+        <div class="edit-user-container">
+            <h1>Reset User</h1>
+            <form>
+                <form class="edit-user-form" action="" method="post">
+                    <label for="edit-username">Reset Username </label>
+                    <input type="text" id="edit-username" name="edit-username" placeholder="Enter New Username" required>
+
+                    <label for="password">Reset Password </label>
+                    <input type="password" id="edit-password" name="edit-password" placeholder="Enter new Password" minlength="8" required>
+
+                    <button class="signup" type="submit">Reset</button>
+                </form>
+            </form>
+        </div>
+    </body>
+</html>

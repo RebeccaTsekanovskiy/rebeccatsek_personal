@@ -1,0 +1,1166 @@
+{
+  "Buildings": [
+    {
+      "name": "Barton",
+      "building": "Barton",
+      "thumbnail": "./images/barton_main.jpg",
+      "dormitory": {
+        "name": "Barton",
+        "Features": {
+          "alldorm":true,
+          "isFreshman": true,
+          "isSophomore":false,
+          "isJunior":false,
+          "isSenior":false,
+          "hasTriple": true,
+
+          "hasSingle":false,
+          "hasDouble":false,
+          "hasTripleSuite": true,
+          "hasInRoomBathroom": true,
+          "hasHallBathroom": true,
+          "hasCommonSpace": true,
+          "hasTV": true,
+          "hasCouch": true,
+          "hasAC": true,
+          "hasStudyRooms": true,
+          "hasElevator": true,
+          "nearestDining": "Commons",
+          "freshmanhill":true,
+          "hasPrinter": true,
+          "floorType": "Carpeted",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": true,
+          "Desk": true,
+          "Wardrobe": true,
+          "Closet":false
+          
+        },
+        "Kitchen": {
+          "hasMicrowave": true,
+          "hasStove": false,
+          "hasFridge": false
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "Mixed Gender",
+        "RoomTypes": {
+          "Triple": {
+            "Images": [],
+            "Sqft": 228,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 2
+            }
+          },
+          "Triple Suite": {
+            "Images": [],
+            "Sqft": 221,
+            "Bathroom": {
+              "Type": "in-room",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Quad",
+      "building": "Roebling",
+      "thumbnail": "./images/Roebling_main.jpg",
+      "glbPath": "./3d-scans/poly_color.gltf",
+      "glbPath2": "./3d-scans/poly_white.gltf",
+      "dormitory": {
+        "name": "Quad",
+        "Features": {
+          "alldorm":true,
+          "isFreshman": true,
+          "isSophomore":true,
+          "isJunior":false,
+          "isSenior":false,
+          "hasSingle": true,
+          "hasDouble": true,
+          "hasTriple": true,
+          "hasHallBathroom": true,
+          "hasAC": true,
+          "nearestDining": "Commons",
+          "freshmanhill":false,
+          "floorType": "Wood",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": false,
+          "Desk": true,
+          "Wardrobe":false,
+          "Closet":true
+        },
+        "Kitchen": {
+          "hasMicrowave": true,
+          "hasStove": true,
+          "hasFridge": true
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "One gender",
+        "RoomTypes": {
+          "Single": {
+            "Images": [],
+            "Sqft": 124,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          },
+          "Double": {
+            "Images": [],
+            "Sqft": 193,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          },
+          "Triple": {
+            "Images": [],
+            "Sqft": 215,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Bray",
+      "building": "Bray",
+      "thumbnail": "./images/bray_main.jpg",
+      "dormitory": {
+        "name": "Bray",
+        "Features": {
+          "alldorm":true,
+          "isFreshman":true,
+          "isSophomore": false,
+          "isJunior":false,
+          "isSenior":false,
+          "hasSingle": true,
+          "hasDouble": true,
+          "hasTriple": true,
+          "hasHallBathroom": true,
+          "hasAC": false,
+          "hasStudyRooms": true,
+          "nearestDining": "Commons",
+          "freshmanhill":true,
+          "floorType": "Wood",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": true,
+          "Desk": true,
+          "Wardrobe":true
+        },
+        "Kitchen": {
+          "hasMicrowave": true,
+          "hasStove": true,
+          "hasFridge": true
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "One gender",
+        "RoomTypes": {
+          "Single": {
+            "Images": [],
+            "Sqft": 110,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          },
+          "Double": {
+            "Images": [],
+            "Sqft": 175,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          },
+          "Triple": {
+            "Images": [],
+            "Sqft": 260,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          }
+        }
+      }
+    },  {
+      "name": "Warren",
+      "building": "Warren",
+      "thumbnail": "./images/warren_main.jpg",
+      "dormitory": {
+        "name": "Warren",
+        "Features": {
+          "alldorm":true,
+          "isFreshman": true,
+          "isSophomore": false,
+          "isJunior":false,
+          "isSenior":false,
+          "hasSingle": true,
+          "hasDouble": true,
+          "hasTriple": false,
+          "hasStudyRooms": true,
+          "hasHallBathroom": false,
+          "hasInRoomBathroom":true,
+          "hasAC": false,
+          "nearestDining": "Commons",
+          "freshmanhill":true,
+          "floorType": "Carpeted",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": true,
+          "Desk": true,
+          "Wardrobe":true
+        },
+        "Kitchen": {
+          "hasMicrowave": true,
+          "hasStove": true,
+          "hasFridge": true
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "One gender",
+        "RoomTypes": {
+          "Single": {
+            "Images": [],
+            "Sqft": 231,
+            "Bathroom": {
+              "Type": "in-room",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          },
+          "Double": {
+            "Images": [],
+            "Sqft": 231,
+            "Bathroom": {
+              "Type": "in-room",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Burdett Avenue Residence Hall (BARH)",
+      "building": "BARH",
+      "thumbnail": "./images/barh_main.jpg",
+      "dormitory": {
+        "name": "BARH",
+        "Features": {
+          "alldorm":true,
+          "isFreshman":true,
+          "isSophomore": false,
+          "isJunior":false,
+          "isSenior":false,
+          "hasSingle": true,
+          "hasDouble": true,
+          "hasTriple": true,
+          "hasHallBathroom": true,
+          "hasInRoomBathroom":true,
+          "hasAC": false,
+          "nearestDining": "BARH", 
+           "freshmanhill":false,
+           "ecav":true,
+          "floorType": "Wood",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": false,
+          "Desk": true,
+          "Wardrobe":true
+        },
+        "Kitchen": {
+          "hasMicrowave": false,
+          "hasStove": true,
+          "hasFridge": true
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "One gender",
+        "RoomTypes": {
+          "Single": {
+            "Images": [],
+            "Sqft": 170,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          },
+          "Double": {
+            "Images": [],
+            "Sqft": 240,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          },
+          "Triple": {
+            "Images": [],
+            "Sqft": 240,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Nason",
+      "building": "Nason",
+      "thumbnail": "./images/nason_main.jpg",
+      "dormitory": {
+        "name": "Bray",
+        "Features": {
+          "alldorm":true,
+          "isFreshman":true,
+          "isSophomore": false,
+          "hasSingle": true,
+          "hasDouble": true,
+          "hasTriple": true,
+          "hasInRoomBathroom":false,
+          "hasHallBathroom": true,
+          "hasAC": false,
+          "nearestDining": "Commons",
+          "freshmanhill":true,
+          "floorType": "Carpeted",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": true,
+          "Desk": true,
+          "Wardrobe":true
+        },
+        "Kitchen": {
+          "hasMicrowave": true,
+          "hasStove": true,
+          "hasFridge": true
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "One gender",
+        "RoomTypes": {
+          "Single": {
+            "Images": [],
+            "Sqft": 110,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          },
+          "Double": {
+            "Images": [],
+            "Sqft": 175,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          },
+          "Triple": {
+            "Images": [],
+            "Sqft": 260,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          }
+        }
+      }
+    
+    },
+    {
+      "name": "RAHPS",
+      "building": "RAHPS",
+      "thumbnail": "./images/rapts.png",
+      "glbPath": "./3d-scans/RAPTSB_main.gltf",
+     
+      "dormitory": {
+        "name": "RAHPS-B",
+        "Features": {
+          "alldorm":true,
+          "isFreshman":false,
+
+          "isSophomore": true,
+          "hasSingle": false,
+          "hasDouble": false,
+          "hasTriple": false,
+          "hasquadruple":true,
+          "hasInRoomBathroom":true,
+          "hasHallBathroom": false,
+          "hasAC": false,
+          "nearestDining": "BARH",
+          "freshmanhill":false,
+          "ecav":true,
+          "floorType": "Carpeted",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": true,
+          "Desk": true,
+          "Wardrobe":true
+        },
+        "Kitchen": {
+          "hasMicrowave": false,
+          "hasStove": true,
+          "hasFridge": true
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "One gender",
+        
+        "RoomTypes": {
+          "Single": {
+            "Images": [],
+            "Sqft": 110,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 2
+            }
+          }
+      }
+      }
+    },
+    {
+      "name": "Cary",
+      "building": "Cary",
+      "thumbnail": "./images/cray_main.jpg",
+      "dormitory": {
+        "name": "Cary",
+        "Features": {
+          "alldorm":true,
+          "isFreshman":true,
+          "isSophomore": false,
+          "isJunior":false,
+          "isSenior":false,
+          "hasSingle": true,
+          "hasDouble": true,
+          "hasTriple": true,
+          "hasHallBathroom": true,
+          "hasInRoomBathroom":false,
+          "hasAC": false,
+          "nearestDining": "Commons",
+          "freshmanhill":true,
+          "floorType": "Wood",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": false,
+          "Desk": true,
+          "Wardrobe":true
+        },
+        "Kitchen": {
+          "hasMicrowave": true,
+          "hasStove": true,
+          "hasFridge": true
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "One gender",
+        "RoomTypes": {
+          "Single": {
+            "Images": [],
+            "Sqft": 110,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          },
+          "Double": {
+            "Images": [],
+            "Sqft": 175,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          },
+          "Triple": {
+            "Images": [],
+            "Sqft": 260,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Crockett Hall",
+      "building": "Crockett",
+      "thumbnail": "./images/crockett.png",
+      "dormitory": {
+        "name": "Crockett",
+        "Features": {
+          "alldorm":true,
+          "isFreshman":true,
+          "isSophomore": false,
+          "isJunior":false,
+          "isSenior":false,
+          "hasSingle": true,
+          "hasDouble": true,
+          "hasTriple": true,
+          "hasHallBathroom": true,
+          "hasInRoomBathroom":false,
+          "hasAC": false,
+          "nearestDining": "Commons",
+          "freshmanhill":true,
+          "floorType": "Carpeted",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": false,
+          "Desk": true,
+          "Wardrobe":false
+        },
+        "Kitchen": {
+          "hasMicrowave": true,
+          "hasStove": true,
+          "hasFridge": true
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "One gender",
+        "RoomTypes": {
+          "Single": {
+            "Images": [],
+            "Sqft": 110,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          },
+          "Double": {
+            "Images": [],
+            "Sqft": 175,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          },
+          "Triple": {
+            "Images": [],
+            "Sqft": 260,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 2
+            }
+          }
+        }
+
+      }
+    },
+      {
+      "name": "Davison/ Nugent",
+      "building": "Davison",
+      "thumbnail": "./images/nugentHall.jpg",
+      "dormitory": {
+        "name": "Davison",
+        "Features": {
+          "alldorm":true,
+          "isFreshman":true,
+          "isSophomore": false,
+          "isJunior":false,
+          "isSenior":false,
+          "hasSingle": true,
+          "hasDouble": true,
+          "hasTriple": false,
+          "hasHallBathroom": false,
+          "hasInRoomBathroom":true,
+          "hasAC": true,
+          "nearestDining": "Commons",
+          "freshmanhill":true,
+          "floorType": "Wood",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": false,
+          "Desk": true,
+          "Wardrobe":true
+        },
+        "Kitchen": {
+          "hasMicrowave": true,
+          "hasStove": true,
+          "hasFridge": true
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "One gender",
+        "RoomTypes": {
+          "Single": {
+            "Images": [],
+            "Sqft": 150,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          },
+          "Double": {
+            "Images": [],
+            "Sqft": 250,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          }
+       
+        }
+      }
+    },
+    {
+      "name": "Hall Hall",
+      "building": "Hall Hall",
+      "thumbnail": "./images/hallhall_main.png",
+      "dormitory": {
+        "name": "Hall",
+        "Features": {
+          "alldorm":true,
+          "isFreshman":true,
+          "isSophomore": false,
+          "isJunior":false,
+          "isSenior":false,
+          "hasSingle": true,
+          "hasDouble": true,
+          "hasTriple": true,
+          "hasHallBathroom": true,
+          "hasInRoomBathroom":false,
+          "hasAC": false,
+          "nearestDining": "Commons",
+          "freshmanhill":true,
+          "floorType": "Carpeted",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": false,
+          "Desk": true,
+          "Wardrobe":false
+        },
+        "Kitchen": {
+          "hasMicrowave": true,
+          "hasStove": true,
+          "hasFridge": true
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "One gender",
+        "RoomTypes": {
+          "Single": {
+            "Images": [],
+            "Sqft": 110,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          },
+          "Double": {
+            "Images": [],
+            "Sqft": 175,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          },
+          "Triple": {
+            "Images": [],
+            "Sqft": 260,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 2
+            }
+          }
+        }
+        
+      }
+    },
+    {
+      "name": "Sharp",
+      "building": "Sharp",
+      "thumbnail": "./images/sharp.jpg",
+      "dormitory": {
+        "name": "Sharp",
+        "Features": {
+          "alldorm":true,
+          "isFreshman":true,
+          "isSophomore": false,
+          "isJunior":false,
+          "isSenior":false,
+          "hasSingle": true,
+          "hasDouble": false,
+          "hasTriple": false,
+          "hasHallBathroom": false,
+          "hasInRoomBathroom":true,
+          "hasAC": true,
+          "nearestDining": "Commons",
+          "freshmanhill":true,
+          "floorType": "Wood",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": false,
+          "Desk": true,
+          "Wardrobe":true
+        },
+        "Kitchen": {
+          "hasMicrowave": true,
+          "hasStove": true,
+          "hasFridge": true
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "One gender",
+        "RoomTypes": {
+          "Single": {
+            "Images": [],
+            "Sqft": 110,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          }
+         
+         
+        }
+      }
+    },
+     {
+      "name": "Stacwyck Apartments",
+      "building": "Stacwyck Apartments",
+      "thumbnail": "./images/stacks_part.png",
+      "dormitory": {
+        "name": "Stacwyck Apartments",
+        "Features": {
+          "alldorm":true,
+          "isFreshman":false,
+
+          "isSophomore": true,
+          "hasSingle": false,
+          "hasDouble": false,
+          "hasTriple": false,
+          "hasquadruple":true,
+          "hasInRoomBathroom":true,
+          "hasHallBathroom": false,
+          "hasAC": true,
+          "nearestDining": "BARH",
+          "freshmanhill":false,
+          "ecav":true,
+          "floorType": "Carpeted",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": true,
+          "Desk": true,
+          "Wardrobe":true
+        },
+        "Kitchen": {
+          "hasMicrowave": false,
+          "hasStove": true,
+          "hasFridge": true
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "One gender",
+        "RoomTypes": {
+          "Single": {
+            "Images": [],
+            "Sqft": 110,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 2
+            }
+          }
+         
+         
+        }
+      }
+    },
+    {
+      "name": "City Station West",
+      "building": "City Station West",
+      "thumbnail": "./images/cityStation.png",
+      
+      "dormitory": {
+        "name": "City Station",
+        "Features": {
+          "alldorm":true,
+          "isFreshman":false,
+          "isSophomore": false,
+          "isJunior":true,
+          "isSenior":true,
+          "hasSingle": false,
+          "hasDouble": false,
+          "hasTriple": false,
+          "hasquadruple":true,
+          "hasInRoomBathroom":true,
+          "hasHallBathroom": false,
+          "hasAC": true,
+          "nearestDining": "Blitman Dining Hall",
+          "freshmanhill":false,
+          "ecav":false,
+          "Downtown":true,
+          "floorType": "Carpeted",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": true,
+          "Desk": true,
+          "Wardrobe":false
+        },
+        "Kitchen": {
+          "hasMicrowave": false,
+          "hasStove": true,
+          "hasFridge": true
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "One gender",
+        "RoomTypes": {
+          "Single": {
+            "Images": [],
+            "Sqft": 110,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 2
+            }
+          }
+         
+         
+        }
+      }
+    },
+    {
+      "name": "Polytechnic",
+      "building": "Polytechnic",
+      "thumbnail": "./images/polytechnuc.png",
+      "glbPath": "./3d-scans/polytech_1_main.gltf",
+      "glbPath2": "./3d-scans/polytech_2_main.gltf",
+     
+      "dormitory": {
+        "name": "Polytechnic",
+        "Features": {
+          "alldorm":true,
+          "isFreshman":false,
+          "isSophomore": false,
+          "isSenior":true,
+          "isJunior":true,
+          "hasSingle": true,
+          "hasDouble": false,
+          "hasTriple": false,
+          "hasquadruple":true,
+          "hasInRoomBathroom":true,
+          "hasHallBathroom": false,
+          "hasAC": true,
+          "nearestDining": "BARH",
+          "freshmanhill":false,
+          "ecav":false,
+          "Downtown":true,
+          "floorType": "Wood",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": true,
+          "Desk": true,
+          "Wardrobe":true
+        },
+        "Kitchen": {
+          "hasMicrowave": false,
+          "hasStove": true,
+          "hasFridge": true
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "One gender",
+        
+        "RoomTypes": {
+          "Single": {
+            "Images": [],
+            "Sqft": 110,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          }
+      }
+      }
+    },{
+      "name": "Colonie",
+      "building": "Colonie Apartments",
+      "thumbnail": "./images/colonie_main.png",
+      "dormitory": {
+        "name": "Colonie",
+        "Features": {
+          "alldorm":true,
+          "isFreshman":false,
+          "isSophomore": true,
+          "isJunior":false,
+          "isSenior":false,
+          "hasSingle": true,
+          "hasDouble": true,
+          "hasTriple": false,
+          "hasquadruple":false,
+          "hasInRoomBathroom":true,
+          "hasHallBathroom": false,
+          "hasAC": true,
+          "nearestDining": "Blitman Dining Hall",
+          "freshmanhill":false,
+          "ecav":true,
+          "Downtown":false,
+          "floorType": "Wood",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": true,
+          "Desk": true,
+          "Wardrobe":false
+        },
+        "Kitchen": {
+          "hasMicrowave": true,
+          "hasStove": false,
+          "hasFridge": false
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "One gender",
+        "RoomTypes": {
+          "Single": {
+            "Images": [],
+            "Sqft": 110,
+            "Bathroom": {
+              "Type": "hall",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+
+
+            }
+          }
+        
+          
+         
+         
+        }
+      }
+    },
+    {
+      "name": "Bryckwyck Apartments",
+      "building": "Bryckwyck Apartments",
+      "thumbnail": "./images/bryck_main.png",
+      "dormitory": {
+        "name": "Bryckwyck Apartments",
+        "Features": {
+          "alldorm":true,
+          "isFreshman":false,
+          "isSophomore": true,
+          "isJunior":true,
+          "isSenior":true,
+          "hasSingle": true,
+          "hasDouble": false,
+          "hasTriple": false,
+          "hasquadruple":true,
+          "hasInRoomBathroom":true,
+          "hasHallBathroom": false,
+          "hasAC": false,
+          "nearestDining": "BAR-H Dining Hall",
+          "freshmanhill":false,
+          "ecav":true,
+          "Downtown":false,
+          "floorType": "Carpeted",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": true,
+          "Desk": true,
+          "Wardrobe":false
+        },
+        "Kitchen": {
+          "hasMicrowave": false,
+          "hasStove": true,
+          "hasFridge": true
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "Mixed Gender",
+        "RoomTypes": {
+          "Single": {
+            "Images": [],
+            "Sqft": 110,
+            "Bathroom": {
+              "Type": "In Room",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 2
+            }
+          }
+         
+         
+        }
+      }
+    },    
+    {
+      "name": "Blitman Apartments",
+      "building": "Blitman Apartments",
+      "thumbnail": "./images/blitman_main.jpg",
+      "dormitory": {
+        "name": "Blitman Apartments",
+        "Features": {
+          "alldorm":true,
+          "isFreshman":false,
+          "isSophomore": true,
+          "isJunior":true,
+          "isSenior":true,
+          "hasSingle": true,
+          "hasDouble": false,
+          "hasTriple": false,
+          "hasquadruple":true,
+          "hasInRoomBathroom":true,
+          "hasHallBathroom": false,
+          "hasAC": true,
+          "nearestDining": "Blitman Dining Hall",
+          "freshmanhill":false,
+          "ecav":false,
+          "Downtown":true,
+          "floorType": "Carpeted",
+          "bedType": "Twin XL"
+        },
+        "Furnishings": {
+          "Dresser": true,
+          "Desk": true,
+          "Wardrobe":false
+        },
+        "Kitchen": {
+          "hasMicrowave": false,
+          "hasStove": true,
+          "hasFridge": true
+        },
+        "Location": {
+          "Description": "Detailed location description"
+        },
+        "Gender": "Mixed Gender",
+        "RoomTypes": {
+          "Single": {
+            "Images": [],
+            "Sqft": 220,
+            "Bathroom": {
+              "Type": "In Room",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          },
+          "Double": {
+            "Images": [],
+            "Sqft": 260,
+            "Bathroom": {
+              "Type": "In Room",
+              "Toilets": 1,
+              "Showers": 1,
+              "Sinks": 1
+            }
+          }
+         
+         
+        }
+      }
+    }
+  
+  
+
+
+
+
+
+
+
+  ]
+}

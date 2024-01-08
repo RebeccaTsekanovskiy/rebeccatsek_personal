@@ -1,0 +1,202 @@
+/* RESOURCES PAGE */
+html {
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    margin:0;
+    height:0;
+    padding-bottom: 10%;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+
+}
+
+
+header {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding: 10px 0 10px 20px;
+    background-color: #00003a;
+    align-content: center;
+}
+
+.profile{
+    margin: 10px;
+    width: 100%;
+}
+
+.header_nav {
+    display: flex;          
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+
+}
+
+.header_nav img {
+    width: 10%;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.navitem {
+    background-color:white; 
+    color: #DE3C4B; 
+    padding: 10px 15px; 
+    margin-left: 10px; 
+    margin-right: 10px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 20px; 
+    transition: background-color 0.3s; 
+    text-decoration: none;
+    font-size: 10pt;
+    width: 80px;
+    text-align: center;
+}
+
+.navitem a:hover {
+    background-color: orange; 
+    color: white; 
+    padding: 10px 15px; 
+    margin-left: 10px; 
+    margin-right: 10px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 20px; 
+    transition: background-color 0.3s; 
+}
+/* RESOURCES PAGE */
+:root {
+    /* Color palette and font weights */
+    --red: hsl(0, 78%, 62%);
+    --green: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --darkBlue: hsl(234, 12%, 34%);
+    --purple: hsl(289, 71%, 42%);
+    --black:rgb(12, 2, 15);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    --yellow: hsl(76, 78%, 51%);
+    --weight1: 200;
+    --weight2: 400;
+    --weight3: 600;
+}
+.all_info{
+    margin:20px;
+    text-align: center;
+    width:100%;
+    height:50%;
+}
+/* General styles for the blocks/cards */
+.block {
+    background-color: #da4f993f; ;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 65px; /* Adjust padding as needed */
+    margin: 2rem; /* Adjust margin as needed */
+    position: relative;
+    width: calc(30% - 1rem); /* Width adjusted for three per row */
+    text-align: center; /* Center text */
+    height: 90%; /* Fixed height for all blocks */
+}
+
+/* Card color headers */
+/* ... (keep these styles as they are) ... */
+
+/* Flex container styles */
+.row1-container, .row2-container , .row3-container, .row4-container {
+    display: flex;
+    justify-content: space-around; /* Even spacing around items */
+    flex-wrap: wrap;
+    align-items: flex-start; /* Align items to the top */
+    max-width: 1200px; /* Container max-width */
+    margin: auto; /* Center the container */
+}
+
+/* Remove the special positioning for offset blocks */
+.one_block {
+    margin-top: 0; /* No staggered look */
+    text-align: center;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 850px) {
+    .block {
+        width: calc(20% - 0rem); /* Two cards per row */
+        height: auto; /* Height can be auto for responsive */
+    }
+}
+
+@media (max-width: 600px) {
+    .block {
+        width: 100%; /* Full width for small screens */
+        margin: 1rem 0; /* Adjust margin for vertical stacking */
+    }
+}
+
+/* Card color headers */
+.blue {
+    border-top: 3px solid var(--blue);
+}
+
+.red {
+    border-top: 3px solid var(--red);
+}
+
+.green {
+    border-top: 3px solid var(--green);
+}
+
+.orange {
+    border-top: 3px solid var(--orange);
+}
+
+.yellow {
+    border-top: 3px solid var(--yellow);
+}
+.purple{
+    border-top: 3px solid var(--purple);
+}
+.black{
+    border-top: 3px solid var(--black);
+}
+
+.button-style {
+   
+    padding:10px;
+    margin: 10px;
+    font-size: 20px;
+ 
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px #999;
+    
+  }
+
+ .button-style a{
+    font-size: 100%;
+  }
+
+  .button-style:hover { background-color:  #da4f993f; }
+
+  .button-style:active {
+    background-color: rgb(142, 109, 62);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
