@@ -1,9 +1,23 @@
-* {
-    box-sizing: border-box;
+
+
+html {
+    width: 100vw;
+    height: 100vh;
+    /* overflow-y: scroll; */
 }
 
-body{
+body {
     margin:0;
+    height:0;
+    padding-bottom: 10%;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+
 }
 main {
     background-color: #f5cad3bb;
@@ -13,6 +27,7 @@ main {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
+    box-sizing: border-box;
 }
 
 
@@ -28,6 +43,10 @@ header {
 .profile{
     margin: 10px;
     width: 100%;
+}
+
+body{
+    box-sizing: border-box;
 }
 
 .header_nav {
@@ -83,12 +102,13 @@ img{
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    width: 40%;
+    width: 50%;
     margin: auto;
     padding: 25px;
     align-items: center;
     justify-content: center;
     border-radius: 30px;
+    box-sizing: border-box;
 }
 
 .loginform {
@@ -113,7 +133,7 @@ label {
 }
 
 input {
-    width: 100%;
+    width: 90%;
     border: none;
     border-bottom: 2px solid #da4f99bb;
     padding: 12px 20px;
