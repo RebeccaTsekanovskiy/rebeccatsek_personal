@@ -71,7 +71,6 @@ footer {
 }
 
 /* HEADER */
-
 header {
     display: flex;
     height: 50px;
@@ -84,24 +83,24 @@ header {
 .profile{
     margin: 10px;
     width: 100%;
-  }
-  
-  .header_nav {
+}
+
+.header_nav {
     display: flex;          
     align-items: center;
     justify-content: flex-end;
     padding: 10px;
-  
-  }
-  
-  .header_nav img {
+
+}
+
+.header_nav img {
     width: 10%;
     height: auto;
     padding-bottom: 10px;
     padding-top: 10px;
-  }
-  
-  .navitem {
+}
+
+.navitem {
     background-color:white; 
     color: #DE3C4B; 
     padding: 10px 15px; 
@@ -115,9 +114,9 @@ header {
     font-size: 10pt;
     width: 80px;
     text-align: center;
-  }
-  
-  .navitem a:hover {
+}
+
+.navitem a:hover {
     background-color: orange; 
     color: white; 
     padding: 10px 15px; 
@@ -127,7 +126,9 @@ header {
     cursor: pointer; 
     border-radius: 20px; 
     transition: background-color 0.3s; 
-  }
+}
+
+
 .dropdown {
     float: left;
     overflow: hidden;
