@@ -1,0 +1,992 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    /* overflow-y: scroll; */
+}
+
+@media only screen and (max-width: 320px) {
+    /* Adjust the sidebar to be full width and auto height */
+    .sidebar {
+        width: 100%;
+        height: auto;
+        padding: 5px; /* Reduced padding */
+        overflow:hidden;
+        display:flex;
+    }
+
+    aside .sidebar{
+       width:100%;
+       display:flex;
+    }
+    aside{
+        display:flex;
+    }
+    html{
+        display: flex;
+    }
+
+    /* Adjust the search form and image */
+    .search-image {
+        width: 20px; /* Reduce the search icon size */
+    }
+
+    .sidebar form {
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px; /* Reduce padding */
+      
+    }
+
+    /* Adjust the input field size */
+    .sidebar input[type="text"] {
+        font-size: 12px; /* Reduce font size */
+        padding: 5px; /* Reduce padding */
+        margin: 0; /* Remove any margin */
+        width: calc(100% - 30px); /* Adjust width to leave space for the search icon */
+    }
+
+    /* Adjust the filter title */
+    .filter-title {
+        font-size: 14px; /* Reduce font size */
+        margin: 10px 0; /* Adjust margin */
+    }
+
+    /* Adjust tag buttons */
+    .tag-button {
+        font-size: 10px; /* Reduce font size */
+        padding: 5px 10px; /* Reduce padding */
+        margin: 5px 0; /* Adjust margin */
+        display: block; /* Stack buttons vertically */
+        width: auto; /* Allow buttons to fit content */
+    }
+
+    /* Adjust kitchen options */
+    .kitchen-button {
+        font-size: 10px; /* Reduce font size */
+        padding: 5px 10px; /* Reduce padding */
+        margin: 5px 0; /* Adjust margin */
+        display: block; /* Stack buttons vertically */
+        width: auto; /* Allow buttons to fit content */
+    }
+
+    /* Additional styles for other elements as needed */
+}
+
+
+
+body {
+    margin:0;
+    height:0;
+    padding-bottom: 10%;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+
+}
+
+.welcome h1 {
+    color: #C42847;
+    margin: 0px;
+    padding-left: 0px;
+    font-size: 30pt;
+
+}
+.navitem:hover {
+    background-color: orange; 
+    color: white; 
+    padding: 10px 15px; 
+    margin-left: 10px; 
+    margin-right: 10px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 20px; 
+    transition: background-color 0.3s; 
+}
+
+h2 {
+    color: #00003a;
+    margin: 0px;
+}
+
+.welcome {
+    margin: 20px;
+
+}
+
+
+/* FOOTER */
+
+button:hover {
+    background-color: #555; /* Darken the button color on hover */
+}
+
+footer {
+    margin-top: auto; 
+    padding-top: 20px;
+    padding-bottom: 14px;
+    background-color: #f5cad3bb;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer_button{
+    background-color:white; 
+    color: #da4f99bb; 
+    padding: 10px 15px; 
+    margin-left: 10px; 
+    margin-right: 10px;
+    border: none; 
+    cursor: pointer; 
+    border-radius: 20px; 
+    transition: background-color 0.3s; 
+    font-size: 8pt;
+
+}
+
+/* HEADER */
+header {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding: 10px 0 10px 20px;
+    background-color: #00003a;
+    align-content: center;
+}
+
+.profile{
+    margin: 10px;
+    width: 100%;
+}
+
+.header_nav {
+    display: flex;          
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+
+}
+
+.header_nav img {
+    width: 10%;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.navitem {
+    background-color:white; 
+    color: #DE3C4B; 
+    padding: 10px 15px; 
+    margin-left: 10px; 
+    margin-right: 10px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 20px; 
+    transition: background-color 0.3s; 
+    text-decoration: none;
+    font-size: 10pt;
+    width: 80px;
+    text-align: center;
+}
+
+.navitem a:hover {
+    background-color: orange; 
+    color: white; 
+    padding: 10px 15px; 
+    margin-left: 10px; 
+    margin-right: 10px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 20px; 
+    transition: background-color 0.3s; 
+}
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn{
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #DE3C4B;
+    padding: 14px 16px;
+    background-color:white; 
+    border-radius: 20px; 
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* LANDING PAGE: WHOAMI */
+
+#landing {
+    position: relative;
+    height: 100vh;
+
+}
+
+ .whoami h3 {
+    margin-right: 20px;  
+}
+
+.whoami_button {
+    background-color: orange;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px; 
+    margin: 0 10px;  
+    flex-grow: 1;  
+    text-align: center; 
+    border: none;  
+    cursor: pointer;  
+}
+
+.whoami {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: flex-start;  
+}
+
+.scroll {
+    padding: 103px;
+    text-decoration: none;
+    color: white;
+}
+
+.freshman{
+    background-color: #fefefe;
+    margin: 20px;
+}
+.transfer{
+    background-color: #fefefe;
+    margin: 20px;
+}
+.returning{
+    background-color: #fefefe;
+    margin: 20px;
+}
+
+#freshman-info {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.info {
+    background-color: rgb(255, 230, 234);
+    padding: 20px;
+    margin: 0px 50px 0px 50px;
+    border-radius: 20px;
+
+}
+
+.button-area{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-area a{
+    padding: 10px;
+    width: 200px;
+    color:#00003a;
+    text-decoration: none;
+    text-align: center;
+    background-color: orange;
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+.button-area a:hover{
+    padding: 10px;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    background-color:#C42847;
+    color: white;
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+/* lANDING PAGE: IMAGE CAROUSEL */
+
+.wrapper{
+    display: flex;
+    position: relative;
+  }
+  
+  .wrapper i{
+    top: 50%;
+    height: 44px;
+    width: 44px;
+    color: #343F4F;
+    cursor: pointer;
+    font-size: 1.15rem;
+    position: absolute;
+    text-align: center;
+    line-height: 44px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+  }
+  
+  .wrapper i:active{
+    transform: translateY(-50%) scale(0.9);
+  }
+  
+  .wrapper i:hover{
+    background: orange;
+  }
+  
+  .wrapper i:first-child{
+    left: -22px;
+    display: none;
+  }
+  
+  .wrapper i:last-child{
+    right: -22px;
+  }
+  
+  .wrapper .carousel{
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+  }
+  
+  .carousel img{
+    height: 335px;
+    object-fit: cover;
+    user-select: none;
+    margin-left: 14px;
+  }
+  
+  .carousel img:first-child{
+    margin-left: 0px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .carousel img{
+      width: calc(100% / 2);
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .carousel img{
+      width: 100%;
+    }
+  
+  }
+
+  #right {
+    overflow-x: hidden;
+  }
+
+
+/* DORM PAGE */
+
+.dorms-page{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.tags h1 {
+    font-size: 24px; /* Adjust size as needed */
+    margin: 0;
+    padding: 10px; /* Adjust padding as needed */
+    text-align: left;
+}
+
+.main-dorm-buttons {
+    background-color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: #DE3C4B;
+}
+.main-dorm-buttons-modal {
+    background-color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: #DE3C4B;
+}
+
+.main-dorm-buttons:hover {
+    background-color: #DE3C4B;
+    color: white; /* Text color is white when hovered */
+}
+.test {
+    background-color: red;
+    color: white;
+    width:100%;
+    padding: 10px;
+    border: none;
+}
+
+
+
+
+
+#modal-model-viewer {
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
+   
+    margin-top: 10px;
+}
+
+/* Highlighting active button */
+.main-dorm-buttons-modal.active {
+    background-color: #4285f4;
+    color: white;
+}
+
+.main-dorm-buttons:active {
+    background-color: #DE3C4B;
+    color: white; /* Optional: change text color when button is active */
+}
+
+
+.main-dorm-buttons{
+    display: inline-block; /* Align buttons horizontally */
+}
+
+#dorm-tiles-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    
+}
+
+#dorm-tiles-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#dorm-tiles-test {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15vw, 1fr));
+    gap: .5vw;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin: 0% 0.5% 0% 0%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 34vw;
+}
+
+.dorm-tile {
+    height: 16vw;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 1vw;
+    border-radius: 1vw;
+    background-color: black;
+    cursor: pointer;
+    transition: height 0.3s;
+}
+
+.dorm-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #DE3C4B;
+    font-size: 18px;
+        background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+    padding: 5px 10px; /* Add some padding around the text */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.dorm-tile:hover {
+    outline: 3px solid #DE3C4B; 
+    font-weight:bold;
+
+}
+
+/* Style the scrollbar */
+#dorm-tiles-test::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+#dorm-tiles-test::-webkit-scrollbar-track {
+    background-color: #ffffffbb; /* Color of the track */
+    border-radius: 10px; /* Roundness of the track */
+}
+
+#dorm-tiles-test::-webkit-scrollbar-thumb {
+    background-color: orange; /* Color of the scroll thumb */
+    border-radius: 10px; /* Roundness of the scroll thumb */
+}
+
+#dorm-tiles-test::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(171, 111, 0); /* Color of the scroll thumb when hovered */
+}
+
+/* popup window */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    /* padding-top: 50px;  */ 
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; 
+    overflow: auto;
+opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+
+#dorm-features {
+    background-color: white;
+    width: 80%;
+    padding: 20px 35px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    padding-right:10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+   
+    color: #DE3C4B;
+
+}
+.modal-header{
+    text-align: left;
+    margin:0;
+}
+
+.modal-side-header{
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+#dorm-features ul{
+    border-radius: 20px;
+    border-style: none;
+    
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   margin:20px;
+
+}
+.modal-visible {
+    opacity: 1; /* Fully visible when the class is applied */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* x% from the top and centered */
+    /* border: 1px solid #888; */
+    width: 90%;
+    height: 80%;
+
+    border-radius: 10px;
+
+}
+.modal-content header{
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    height: 5%;
+    color: white;
+}
+#modal-image{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 5px grey;
+    /* margin: 20px; */
+    /* padding: 10px; */
+}
+
+#modal-title{
+    color: white;
+}
+
+.modal-whattoexpect-box{
+    margin: 20px;
+    padding: 20px 0px 0px 20px;
+    width: 100%;
+    height: 40%; /*Change to fit content*/
+    background-color: #FBF5F3;
+    border-radius: 15px;
+    display:none;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.modal-header1 {
+    margin: 20px 0px 0px 20px;
+}
+
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main-panel{
+    display: flex;
+    height: 100%;
+}
+
+.side-panel1{
+    width: 20%;
+    padding:auto;
+    border-radius: 1px 0px 0px 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.side-panel2{
+    width: 80%;
+    padding: 20px auto;
+    /* height: 100%; */
+    border-radius: 0px 0px 10px 0px;
+    box-shadow: 2px 2px 5px grey;
+    /* border-style: dashed; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-nav{
+    display: flex;          
+    align-items: center;
+    height:10%;
+    width: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+    /* border-style: dashed; */
+    background-color: #DE3C4B40;
+}
+.info-section{
+    width: 100%;
+    height: 90%;
+    display: flex; 
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    /* height: 89%; */
+    /* border-style: dashed; */
+}
+
+.info-column-left{
+    width:40%;
+    /* height: 100%; */
+    margin: 20px;
+}
+.info-column-right{
+    width:50%;
+    height: 100%;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#dorm-features{
+    margin-left: 0px;
+}
+
+.main-dorm-buttons{
+    font-size: 0.9vw;
+
+}
+.main-dorm-buttons-modal{
+    font-size: 0.9vw;
+
+}
+.main-dorm-buttons-modal.active {
+    background-color: #00003a; 
+    color: white;
+}
+
+
+.modal-description-box{
+    padding: 20px 0px 0px 20px;
+    margin: 20px 20px 0px 20px;
+    width:100%;
+    height: 30%; /*Change to fit content*/
+    background-color: #FBF5F3;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px grey;
+
+}
+
+
+#modal-description2,#modal-description{
+  
+   
+    color: #DE3C4B;
+   
+
+    border-radius: 20px;
+    
+
+ margin:10px;
+    border-style:none;
+    
+}
+
+model-viewer{
+    display:flex;
+    width:100%;
+    height:100%;
+    border-radius: 15px;
+  
+}
+
+.custom-model-viewer{
+    width: 300%; /* Adjust the width as needed */
+    display:flex;
+  
+    margin-right: 400px;
+}
+
+.dorm-visuals{
+    margin: 50px;
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dorm-visuals img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px grey;
+
+}
+
+
+
+
+
+
+/* DORMS PAGE: SIDEBAR */
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    border-color: transparent;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+box-shadow: 2px 2px 2px 1px grey;
+}
+
+.tags {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+transition: all 0.3s ease; /* Add transition for smooth effect */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 33vw;
+    
+    align-items: left;
+    align-content: left;
+    justify-content: start;
+    text-align: left;
+    
+}
+
+.filter-title{
+    color: #C42847;
+    font-size: 20pt;
+    margin: 2% 3% 3% 3%;
+}
+
+.tag-button {
+background-color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    border-radius: 20px;
+    border-style: none;
+    color: #DE3C4B;
+    width: 150px;
+    font-size: 10pt;
+    color:#00003a;
+    box-shadow: 2px 2px 5px grey;
+transition: all 0.3s ease; 
+
+}
+
+.tag-button:hover{
+    background-color: #00003a;
+    color: white;
+}
+
+.tag-button.active {
+    background-color: #00003a; 
+    color: white;
+}
+
+.main-dorm-buttons.active {
+    background-color: #00003a; 
+    color: white;
+}
+
+.kitchen-button{
+    background-color:red;
+   color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    border-radius: 20px;
+    border-style: none;
+    color: #DE3C4B;
+    width: 150px;
+    font-size: 10pt;
+    color:#00003a;
+    box-shadow: 2px 2px 5px grey;
+transition: all 0.3s ease; 
+}
+
+
+.kitchen-button:hover{
+    background-color: #00003a;
+    color: white;
+}
+
+.kitchen-button.active {
+    background-color:#00003a; 
+    color: white;
+}
+
+
+
+
+
+
+.search-image {
+    width: 30px;
+    margin: 5px;
+    
+}
+
+.main-dorm-tags{
+    display: flex; 
+    justify-content: left; 
+    padding: 1% 2% 1% 2%;  
+    margin:auto;
+    background-color: #f5cad3bb;
+}
+
+
+.main-dorm-right{
+    width: 80%;
+}
+
+.tags::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+.tags::-webkit-scrollbar-track {
+    background-color: #ffffffbb; /* Color of the track */
+    border-radius: 10px; /* Roundness of the track */
+}
+
+.tags::-webkit-scrollbar-thumb {
+    background-color: orange; /* Color of the scroll thumb */
+    border-radius: 10px; /* Roundness of the scroll thumb */
+}
+
+.tags::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(171, 111, 0); /* Color of the scroll thumb when hovered */
+}
+
+
+
+

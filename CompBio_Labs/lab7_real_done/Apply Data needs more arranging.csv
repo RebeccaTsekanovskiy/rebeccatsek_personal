@@ -1,0 +1,97 @@
+﻿Treatment,Species,Abs
+LB,C.fre,0.162
+LB+G,C.fre,0.167
+LB+S,C.fre,0.15
+LB+G+S,C.fre,0.119
+LB,C.fre,0.134
+LB+G,C.fre,0.157
+LB+S,C.fre,0.15
+LB+G+S,C.fre,0.128
+LB,C.fre,0.119
+LB+G,C.fre,0.201
+LB+S,C.fre,0.174
+LB+G+S,C.fre,0.117
+LB,E.col,0.602
+LB+G,E.col,0.452
+LB+S,E.col,0.642
+LB+G+S,E.col,0.432
+LB,E.col,0.475
+LB+G,E.col,0.418
+LB+S,E.col,0.622
+LB+G+S,E.col,0.372
+LB,E.col,0.481
+LB+G,E.col,0.329
+LB+S,E.col,0.57
+LB+G+S,E.col,0.329
+LB,P.flu,0.123
+LB+G,P.flu,0.098
+LB+S,P.flu,0.077
+LB+G+S,P.flu,0.091
+LB,P.flu,0.111
+LB+G,P.flu,0.102
+LB+S,P.flu,0.077
+LB+G+S,P.flu,0.095
+LB,P.flu,0.151
+LB+G,P.flu,0.095
+LB+S,P.flu,0.099
+LB+G+S,P.flu,0.108
+LB,S. mar,0.486
+LB+G,S. mar,0.325
+LB+S,S. mar,0.436
+LB+G+S,S. mar,0.391
+LB,S. mar,0.482
+LB+G,S. mar,0.482
+LB+S,S. mar,0.482
+LB+G+S,S. mar,0.482
+LB,S. mar,0.485
+LB+G,S. mar,0.303
+LB+S,S. mar,0.422
+LB+G+S,S. mar,0.321
+LB,B. sub,0.138
+LB+G,B. sub,0.498
+LB+S,B. sub,0.57
+LB+G+S,B. sub,0.526
+LB,B. sub,0.099
+LB+G,B. sub,0.307
+LB+S,B. sub,0.618
+LB+G+S,B. sub,0.582
+LB,B. sub,0.08
+LB+G,B. sub,0.313
+LB+S,B. sub,0.595
+LB+G+S,B. sub,0.431
+LB,S. epi,0.371
+LB+G,S. epi,0.252
+LB+S,S. epi,0.28
+LB+G+S,S. epi,0.411
+LB,S. epi,0.327
+LB+G,S. epi,0.149
+LB+S,S. epi,0.373
+LB+G+S,S. epi,0.476
+LB,S. epi,0.407
+LB+G,S. epi,0.376
+LB+S,S. epi,0.563
+LB+G+S,S. epi,0.514
+LB,A. hyd,0.064
+LB+G,A. hyd,0.063
+LB+S,A. hyd,0.069
+LB+G+S,A. hyd,0.069
+LB,A. hyd,0.071
+LB+G,A. hyd,0.063
+LB+S,A. hyd,0.065
+LB+G+S,A. hyd,0.067
+LB,A. hyd,0.067
+LB+G,A. hyd,0.063
+LB+S,A. hyd,0.072
+LB+G+S,A. hyd,0.068
+LB,bkg,0.157
+LB+G,bkg,0.119
+LB+S,bkg,0.126
+LB+G+S,bkg,0.163
+LB,bkg,0.405
+LB+G,bkg,0.164
+LB+S,bkg,0.128
+LB+G+S,bkg,0.1
+LB,bkg,0.493
+LB+G,bkg,0.133
+LB+S,bkg,0.07
+LB+G+S,bkg,0.086
